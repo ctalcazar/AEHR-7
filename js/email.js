@@ -183,7 +183,7 @@ var formData = $(theForm).serialize(),
 note = $('#Note');
 $.ajax({
 type: "POST",
-url: "send.php",
+url: "http://www.aehr.es/app/send.php",
 data: formData,
 success: function(response) {
 if ( note.height() ) {			
