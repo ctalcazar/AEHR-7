@@ -173,6 +173,16 @@ function calculomatri4(creatinina4,edad4,sexo4,totaltexta4){
 	}
 	
 }
+
+function optwitter() {
+    if (typeof navigator !== "undefined" && navigator.app) {
+        // Mobile device.
+        navigator.app.loadUrl('http://www.aehr.es/', {openExternal: true});
+    } else {
+        // Possible web browser
+        window.open("http://www.aehr.es", "_blank");
+    }
+}
 /*FIN FORMULAS*/
 
 
