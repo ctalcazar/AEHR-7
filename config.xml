@@ -26,7 +26,7 @@
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
 	
-  <gap:plugin name="org.li8.inappbrowser" version="0.1" />
+  <gap:plugin name="org.li8.inappbrowser" version="0.3.0" />
   <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.1.1" />
   
   <feature name="InAppBrowser">
