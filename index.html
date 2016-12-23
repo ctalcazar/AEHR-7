@@ -12,7 +12,9 @@
 <link rel="stylesheet" href="style.css">
 <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-<script type=”text/javascript” charset=”utf-8″ src=”plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js”></script>
+<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
 </head>
 <body id="mobile_wrap">
 
@@ -76,8 +78,9 @@
                       	  <span class="logo"><img src="images/logo.png" alt="" title="" /></span>
                           <span>Bienvenido a</span>
                           <span class="subtitle">Asociación Española de Hígado y Riñón</span>
-                          <a href="#" class="swiper_read_more">Aplicación va dirigida a profesionales sanitarios</a>                      
-                        </div>
+                          <a href="#" class="swiper_read_more">Aplicación va dirigida a profesionales sanitarios</a> 
+                          <a href="#" onclick="window.open('https://twitter.com/AEHR_news', '_system');"><img src="images/icons/white/twitter.png" alt="" title="" /></a>
+                      </div>
                       <!--<div class="swiper-slide">
                           <span>WITH <br />BEAUTIFUL</span>
                           <span class="subtitle">multipurpose designs</span>
@@ -131,7 +134,6 @@
       <p>Si deseas ponerte en contacto con la Asociación, puedes encontrarnos en redes sociales y a través de nuestro email.</p>
       <ul class="social_share">
       <li><a href="#" onclick="window.open('https://twitter.com/AEHR_news', '_system');"><img src="images/icons/white/twitter.png" alt="" title="" /></a></li>
-      <li><a id="ext-link" href="javascript:optwitter();"><img src="images/icons/white/twitter.png" alt="" title="" /></a></li>
       <li><a href="#" onclick="window.open('https://es-es.facebook.com/aehrasociacion', '_system');"><img src="images/icons/white/facebook.png" alt="" title="" /></a></li>
       <li><a href="#" onclick="window.open('https://es.linkedin.com/in/aehr-asociación-española-de-hígado-y-riñón-797279115', '_system');"><img src="images/icons/white/linkedin.png" alt="" title="" /></a></li>
       <!--<li><a href="#"><img src="images/icons/white/googleplus.png" alt="" title="" /></a></li>
